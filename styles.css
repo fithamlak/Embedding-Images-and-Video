@@ -6,12 +6,11 @@
 
 button {
   background: rgb(106, 114, 94);
-  padding: 0.2rem;
+  padding: 0.8rem;
   cursor: pointer;
   margin-left: 5px;
 }
-img,
-i {
+img {
   padding: 0.2rem;
   cursor: pointer;
 }
@@ -52,7 +51,7 @@ nav {
 }
 
 .search-container {
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 0.5rem;
   height: 1.5rem;
   display: flex;
@@ -62,22 +61,13 @@ nav {
 
 .search-bar {
   display: block;
-  width: 80%;
-  height: 1.8rem;
+  width: 50%;
+  height: 2.2rem;
 }
 
 .right {
   display: flex;
   justify-content: center;
-}
-
-.fa-arrow-up,
-.fa-video,
-.fa-bell {
-  width: 50px;
-  padding: 0.9rem;
-  transform: scale(1.5);
-  margin-left: 0.5rem;
 }
 
 .fa-search {
@@ -121,4 +111,66 @@ iframe {
 h1 {
   margin: 20px 0 0 20px;
   font-size: 1.7rem;
+}
+
+aside {
+  width: 500px;
+  margin-top: 20px;
+  padding: 0.7rem;
+}
+
+.options-preview {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.autoplay {
+  display: flex;
+  justify-content: space-around;
+}
+
+.autoplay img {
+  margin-left: 0.5rem;
+}
+
+.info-icon {
+  width: 20px;
+}
+
+.blue-box {
+  width: 50px;
+  height: 20px;
+  background-color: rgb(22, 122, 198);
+  border-radius: 0.9rem;
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.check {
+  width: 50%;
+  height: 100%;
+  background: honeydew;
+  border-radius: 50%;
+}
+
+.recommended-video {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.recommended-video img {
+  width: 70%;
+  height: auto;
+}
+
+.info-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+hr {
+  margin-top: 0.5rem;
 }
